@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development --port 3000 --open",
     "build": "webpack --mode development --verbose --colors --display-error-details",
     "deploy": "node deploy-to-github.js",
-    "generate-random": "node src/app.js random",
+    "generate-random": "node src/generator.js random",
     "generate-all": "node src/generator.js all"
   },
   "repository": {
